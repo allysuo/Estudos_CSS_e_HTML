@@ -1,114 +1,49 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+h1 {
+    color: #ff0000d0;
+    font-size: 32px;
+    text-align: center;
+    font-family: "Verdana", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+p {
+    color: rgb(6, 23, 56);
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-family: Arial, serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.promo {
+    text-decoration: line-through;
+    color: red;
 }
 
 body {
-    background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    color: #102a43;
+    background-color: white;
+    background-image: url(images/thumb-1920-1398048.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
-
-.login-container {
-    background-color: #ffffff;
-    padding: 40px;
-    border-radius: 16px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-    width: 100%;
-    max-width: 400px;
-    text-align: center;
+body {
+    background: white url(images/thumb-1920-1398048.jpg) no-repeat fixed center;
 }
 
+a:link {text-decoration: none; color: #3498db}
 
-h1 {
-    font-size: 2rem;
-    color: #0b2c4d;
-    margin-bottom: 5px;
-    font-weight: 700;
-}
+a:visited {color: #bf34db;}
 
-.subtitle {
-    color: #627d98;
-    font-size: 0.95rem;
-    margin-bottom: 32px;
-}
+a:hover {text-decoration: underline; color: #34db5e;}
 
+a:active {color: red}
 
-.login-section {
-    text-align: left;
-    margin-bottom: 24px;
-}
-
-.login-section h2 {
-    font-size: 1.05rem;
-    color: #102a43;
-    margin-bottom: 12px;
-}
-
-
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
-
-/* Campos de texto e senha */
-input {
-    padding: 12px 16px;
-    font-size: 0.95rem;
-    border: 1.5px solid #bcccdc;
-    border-radius: 8px;
-    outline: none;
-    background-color: #f0f4f8;
-    transition: all 0.25s ease;
-}
-
-input:focus {
-    border-color: #2680c2;
-    background-color: #ffffff;
-    box-shadow: 0 0 0 4px rgba(38, 128, 194, 0.15);
-}
-
-/* Botão de envio */
-button {
-    padding: 12px;
-    font-size: 1rem;
-    font-weight: 600;
-    background-color: #102a43;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.2s ease, transform 0.1s ease;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-button:hover {
-    background-color: #1b3b6f;
-}
-
-button:active {
-    transform: scale(0.98);
-}
-
-/* Link dentro do botão */
-button a {
-    color: #ffffff;
-    text-decoration: none;
-    width: 100%;
-    display: block;
-}
-
-.divisao {
-    border: 0;
-    height: 1px;
-    background: #d9e2ec;
-    margin: 24px 0;
-}
+a {font-weight: bold;}

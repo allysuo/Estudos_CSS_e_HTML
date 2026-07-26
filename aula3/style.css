@@ -1,0 +1,25 @@
+.caixa {
+    width: 300px;
+    background-color: #14308d;
+    color: white;
+    border: 5px solid #000000;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#caixa-padding {
+    padding: 50px;
+}
+
+#caixa-margin {
+    margin: 50px;
+}
+
+.botao {
+    border: 2px solid rgb(17, 19, 151);
+    border-radius: 10px;
+}
+
+.caixa-texto {
+    border-bottom: 5px solid green;
+}

@@ -1,0 +1,39 @@
+@keyframes pulsar {
+    0% {
+        transform: scale(1);
+        background-color: rgb(255, 87, 87);
+    }
+    14% {
+        transform: scale(1.2);
+        background-color: rgb(255, 194, 82);
+    }
+    28% {
+        transform: scale(1.2);
+        background-color: yellow;
+    }
+    46% {
+        transform: scale(1.2);
+        background-color: rgb(63, 197, 63);
+    }
+    50% {
+        transform: scale(1.2);
+        background-color: rgb(59, 59, 221);
+    }
+    100% {
+        transform: scale(1);
+        background-color: rgb(182, 69, 182);
+    }
+}
+
+
+.caixa-viva {
+    width: 100px;
+    height: 100px;
+    margin: 50px auto;
+    border-radius: 10px;
+    
+    animation-name: pulsar;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
